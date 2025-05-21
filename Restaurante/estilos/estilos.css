@@ -1,0 +1,74 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    color: #000000;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #007432;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #3cb371;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffffcc;
+}
+
+
+.bienvenida {
+    padding: 50px 20px;
+    text-align: center;
+    background-image: url('./_img/Leonardo_Phoenix_10_A_luxurious_restaurant_logo_showcasing_hig_3.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.bienvenida .container {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.bienvenida h2 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+}
+
+.bienvenida p {
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
